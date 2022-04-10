@@ -135,9 +135,46 @@ header nav ul li a:hover{
 
 /* My work */
 
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.row-1 {
+    margin: 20px;
+    flex: 1;
+}
 
+.row-1 img {
+    width: 100%;
+}
 
+.row-2 {
+    margin: 20px;
+    flex: 1;
+}
+
+.row-2 img {
+    width: 100%;
+    height: 80%;
+}
+
+.row-3 {
+    margin: 20px;
+    flex: 1;
+}
+
+.row-3 img {
+    width: 100%;
+    height: 80%;
+}
+
+.text {
+    
+}
 /* My work End */
 
 /* Contact me */
