@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Joey Byrd Portfolio</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!--navigation-->
@@ -57,25 +58,23 @@
             </h2>
         </div>
 
-        
+        <div class="work">
             <!--work 1-->
             <article class="row-1">
                 <a href="" target="_blank">
                     <img src="./assets/images/work-1.jpg" alt=""/>
-                </a>    
-                <div>
-                    <h3 class="text">Work 1</h3>
-                </div>
+                </a>
+                <h3>Work 1</h3>
+                
             </article>
+        </div>  
         <div class="work">
             <!--work 2-->
             <article class="row-2">
                 <a href="" target="_blank">
                     <img src="./assets/images/work-2.jpg" alt=""/>
                 </a>
-                <div>
-                    <h3 class="text">Work 2</h3>
-                </div>
+                <h3>Work 2</h3>
             </article>
 
             <!--work 3-->
@@ -83,9 +82,7 @@
                 <a href="" target="_blank">
                     <img src="./assets/images/work-3.jpg" alt="" />
                 </a>
-                <div>
-                    <h3 class="text">Work 3</h3>
-                </div>
+                <h3>Work 3</h3>
             </article>
         </div>
         <div class="work">
@@ -94,9 +91,7 @@
                 <a href="" target="_blank">
                     <img src="./assets/images/work-4.jpg" alt="" />
                 </a>
-                <div>
-                    <h3 class="text">Work 4</h3>
-                </div>
+                <h3>Work 4</h3>
             </article>
 
             <!--work 5-->
@@ -104,18 +99,37 @@
                 <a href="" target="_blank">
                     <img src="./assets/images/work-5.jpg" alt="" />
                 </a>
-                <div>
-                    <h3 class="text">Work 5</h3>
-                </div>
+                <h3>Work 5</h3>
+                
             </article>
         </div>
         
     </section>
     <!--contact info-->
-    <section id="contact-me" class="">
-        <h2 class="section-title primary-border">Contact Me</h2>
-        <a href="mailto:joeybyrd9999@gmail.com">Email Me!</a>
-    </section>
+    <section id="reach-out" class="contact">
+        <div class="flex-row">
+          <h2 class="section-title secondary-border">
+            Reach Out
+          </h2>
+        </div>
+  
+        <div class="contact-info">
+          
+  
+          <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form>
+              <label for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" placeholder="Your Name" />
+          
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" placeholder="Message"></textarea>
+          
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
     <!--resume-->
     <section id="resume" class="">
         <h2 class="section-title primary border">Resume</h2>
@@ -124,7 +138,12 @@
     </section>
     <!--footer-->
     <footer>
-
+        <div>
+            <a href="https://www.instagram.com/joey_byrd_/" target="_blank" class="fa fa-instagram"></a>
+            <a href="" target="_blank" class="fa fa-twitter"></a>
+            <a href="" target="_blank" class="fa fa-linkedin"></a>
+            <a href="" target="_blank" class="fa fa-github"></a>
+        </div>
     </footer>
 </body>
 

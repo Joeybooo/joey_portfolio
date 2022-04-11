@@ -2,6 +2,8 @@
     --primary-color: #7f7eff;
     --secondary-color: #006D85;
     --tertiary-color: #334139;
+    --quaternary-color: #561d25;
+    --quinary-color: #ffffff;
 }
 
 * {
@@ -68,6 +70,26 @@ header nav ul li a:hover{
 
 /* Header Design End */
 
+/* footer */
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
 /* Hero */
 
 .hero {
@@ -146,6 +168,12 @@ header nav ul li a:hover{
 .row-1 {
     margin: 20px;
     flex: 1;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+.row-1:hover {
+    opacity: .7;
 }
 
 .row-1 img {
@@ -155,6 +183,12 @@ header nav ul li a:hover{
 .row-2 {
     margin: 20px;
     flex: 1;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+.row-2:hover {
+    opacity: .7;
 }
 
 .row-2 img {
@@ -165,6 +199,12 @@ header nav ul li a:hover{
 .row-3 {
     margin: 20px;
     flex: 1;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+.row-3:hover {
+    opacity: .7;
 }
 
 .row-3 img {
@@ -172,13 +212,119 @@ header nav ul li a:hover{
     height: 80%;
 }
 
-.text {
-    
-}
 /* My work End */
 
 /* Contact me */
 
+.contact {
+    background: var(--secondary-color);
+}
+  
+.contact h2 {
+    color: var(--primary-color);
+}
+  
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+  
+.contact-info div {
+    color: white;
+}
+  
+.contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+  
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+  
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+}
+  
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+  
+.contact-form button:hover {
+    color: var(--primary-color);
+    background: var(--tertiary-color);
+}
+  
+.contact-info a {
+    color: var(--primary-color);
+}
+
+
 /* Contact me End */
 
 /* Resume
+
+/* social media */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: .7;
+}
+
+.fa-instagram  {
+    background: var(--quaternary-color);
+    color: var(--quinary-color);
+}
+
+.fa-twitter {
+    background: var(--quaternary-color);
+    color: var(--quinary-color);
+}
+
+.fa-linkedin {
+    background: var(--quaternary-color);
+    color: var(--quinary-color);
+}
+
+.fa-github {
+    background: var(--quaternary-color);
+    color: var(--quinary-color);
+}
